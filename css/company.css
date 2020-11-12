@@ -1,0 +1,8 @@
+main{
+  width: 50%;
+  margin-top: 2em;
+}
+main p{
+  padding-top:1em;
+  border-bottom: 2px solid #000;
+}

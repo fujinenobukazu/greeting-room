@@ -1,0 +1,60 @@
+th,td{
+  padding:0.5em 1em;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+th{
+  background-color: #dbedff;
+  width:10%;
+  font-size: 12px;
+  text-align: center;
+  border-bottom: 2px solid #007fff;
+  border-right: 2px dashed #000;
+  text-align: left;
+}
+td{
+  background-color: #fff;
+}
+table{
+  width: 95%;
+  margin: 1em auto;
+}
+.w20{
+  width: 15%;
+}
+.edit_btn{
+  width: 5em;
+}
+.right{
+  display: flex;
+  justify-content: flex-end;
+}
+/* 勤怠管理デザイン */
+/* 対象年月デザイン */
+tr.day td{
+  background-color: #4d4d4d;
+  color: #fff;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.text_r, tr.text_r td, tr.time_data td{
+  text-align: right;
+}
+/* 集計データ　デザイン */
+tr.attendance_sum td{
+  background-color: #989898;
+}
+tr.text_r td{
+  color: #fff;
+  border-bottom: 2px solid #000;
+}
+/* 勤怠テーブルデータ抽出デザイン */
+tr.time_data_title td{
+  background-color: #dbedff;
+  border-left: 2px solid #007fff;
+  border-bottom: 2px dashed #000;
+}
+.p_center{
+  display: flex;
+  justify-content: space-around;
+}

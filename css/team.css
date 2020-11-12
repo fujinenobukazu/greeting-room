@@ -1,0 +1,35 @@
+
+.team_btn{
+  width: 90%;
+  margin: 0 auto;
+  padding: 5em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.team_btn a{
+  display:block;
+  width: 90%;
+  height: 100px;
+}
+.orange{
+  background-color: #ff9328;
+}
+.blue{
+  background-color: #389bff;
+}
+.green{
+  background-color: #00ac9b;
+}
+.department{
+  background-color: #5c9291;
+}
+.department:hover{
+  opacity: 0.9;
+}
+.assignment{
+  background-color: #d3a243;
+}
+.assignment:hover{
+  opacity: 0.9;
+}

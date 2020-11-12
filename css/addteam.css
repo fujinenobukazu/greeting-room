@@ -1,0 +1,52 @@
+th,td{
+  padding:0.5em 1em;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+th{
+  background-color: #dbedff;
+  width:10%;
+  font-size: 12px;
+  text-align: center;
+  border-bottom: 2px solid #007fff;
+  border-right: 2px dashed #000;
+  text-align: left;
+}
+td{
+  background-color: #fff;
+}
+table{
+  width: 95%;
+  margin: 1em auto;
+}
+.w20{
+  width: 15%;
+}
+.edit_btn{
+  width: 5em;
+}
+.right{
+  display: flex;
+  justify-content: flex-end;
+}
+/* 勤怠管理デザイン */
+/* 勤怠テーブルデータ抽出デザイン */
+tr.time_data_title td{
+  background-color: #dbedff;
+  border-left: 2px solid #007fff;
+  border-bottom: 2px dashed #000;
+}
+.p_center{
+  display: flex;
+  justify-content: space-around;
+}
+input:read-only{
+  background-color: #d9d9d9;
+  color: #fff;
+}
+.main{
+  background-color: #ff7a7a;
+}
+.sub{
+  background-color: #389bff;
+}

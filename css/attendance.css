@@ -1,0 +1,55 @@
+section{
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 2em;
+  border: 2px solid;
+  padding-bottom: 6em;
+}
+.title{
+  margin-top: 1em;
+  font-size: 44px;
+  text-align: center;
+}
+.real_time{
+  margin-top: 1em;
+  font-size: 30px;
+  text-align: center;
+}
+.attendance_btn{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.in_time, .out_time, .break_time{
+  font-size: 25px;
+  width: 5em;
+  border-radius: 1em;
+}
+.in_time:hover, .out_time:hover, .break_time:hover{
+  opacity: 0.7;
+}
+.in_time{
+  background-color: #3d9eff;
+}
+.out_time{
+  background-color: #9e3dff;
+}
+.bordertop{
+  border-top: 2px solid #000;
+  padding-top: 2em;
+}
+.break_time{
+  background-color: #0fff87;
+}
+:disabled{
+  background-color: #666666;
+}
+:disabled:hover{
+  opacity: 1;
+}
+p.p_center{
+  text-align: center;
+  color: red;
+}
